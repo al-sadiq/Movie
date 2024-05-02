@@ -1,0 +1,35 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1714165861000-ee5b656c54e3?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buttontype2 {
+  font-family: serif;
+  padding: 10px 5px;
+  border-width: initial;
+  border-style: double;
+  border-radius: 4px;
+  color: rgb(8, 8, 8);
+  background: linear-gradient(27deg, rgb(22, 22, 24) rgb(16, 214, 16)2,1) 35%,rgb(223, 135, 36) 100%;
+}
+
+.moviearray {
+  margin: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px rgb(228, 106, 106), 0 0 5px rgb(179, 218, 211);
+  width: 600px;
+  height: 400px;
+  background: rgb(87,87,87);
+  background: linear-gradient(27deg, rgb(255, 0, 0) 0%,  rgba(195,195,195,1) 78%, rgba(166,166,166,1) 86%, rgba(205,205,205,1) 100%);
+  border: outset;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
